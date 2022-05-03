@@ -203,7 +203,7 @@ const Container = () => {
                     mint
                   </button>
                 </div>
-                <div className="order-offset">{totalSupply}/7777</div>
+                <div className="order-offset">{totalSupply}/5555</div>
               </div>
             </div>
           </div>
