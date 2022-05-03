@@ -90,9 +90,9 @@
 }
 
 .offer-recap {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
   margin-top: 2rem;
   padding: 1rem;
   border: #fb6343 1px solid;
@@ -100,12 +100,13 @@
 }
 
 .pricing-image {
-  height: 5rem;
-  width: 5rem;
+  height: 100%;
+  width: 100%;
 }
 
 .pricing-to-order {
   display: flex;
+  margin-top: 2rem;
   flex-direction: column;
   justify-content: center;
 }
