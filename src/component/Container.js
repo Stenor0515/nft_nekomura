@@ -34,7 +34,7 @@ const Container = () => {
   const [price, setPrice] = React.useState(0.15);
   const [walletStatus, setWalletStatus] = React.useState("");
   const [walletAddress, setWalletAddress] = React.useState("");
-  const [totalSupply, setTotalSupply] = React.useState(6980);
+  const [totalSupply, setTotalSupply] = React.useState(3505);
 
 
   const userMint = async () => {
@@ -85,11 +85,11 @@ const Container = () => {
   };
 
   const setMintedAmount = () => {
-    if (totalSupply < 7750) {
+    if (totalSupply < 5510) {
       setTotalSupply(totalSupply + nftval);
       return
     }
-    setTotalSupply(6980)
+    setTotalSupply(3505)
 
   }
 
@@ -100,7 +100,7 @@ const Container = () => {
       if (totalSupply < 7500) {
         setTotalSupply(totalSupply + randNum);
       } else {
-        setTotalSupply(6980);
+        setTotalSupply(3505);
     }
     }, 4500);
     return () => clearInterval(interval);
@@ -124,7 +124,7 @@ const Container = () => {
                 <div className="pricing pricing-infor-title text-capitalize">
                   supply
                 </div>
-                <div className="pricing pricing-infor-description">7777</div>
+                <div className="pricing pricing-infor-description">5555</div>
               </div>
               <div className="pricing-infor">
                 <div className="pricing pricing-infor-title text-capitalize">
